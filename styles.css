@@ -1,0 +1,35 @@
+.bg-gray{
+    /* background-color: #1a1a1a; */
+    background-color:#303030;
+}
+
+a :hover{
+    color: #1a1a1a;
+}
+
+footer, footer a {
+    color: #b7b9bc
+}
+
+footer p :hover{
+    color: #fff;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: #212529;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color:#b7b9bc;
+    border-radius: 15px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background-color: #e9ecef;
+}
+
+#home{
+    background-image: url(assets/banner.jpg);
+    background-size: cover;
+}
